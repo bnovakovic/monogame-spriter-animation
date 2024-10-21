@@ -62,7 +62,7 @@ public class Game1 : Game
         
         Stack<SpriteDrawInfo> folderStack = new Stack<SpriteDrawInfo>();
         _animator = new MonoGameAnimator(playerEntity, factory, folderStack);
-        _animator.Play("crouch_down");
+        _animator.Play("walk");
         _animator.Position = new Vector2(100.0f, 300.0f);
         _animator.Scale = Vector2.One;
         
